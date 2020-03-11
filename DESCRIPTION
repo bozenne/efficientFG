@@ -1,0 +1,24 @@
+Package: efficientFG
+Type: Package
+Title: Efficient Fine and Gray estimator
+Version: 0.0.0
+Date: 2020-03-11
+Authors@R: c(
+    person("Brice", "Ozenne", role = c("aut", "cre"), email = "brice.mh.ozenne@gmail.com", comment = c(ORCID = "0000-0001-9694-2956")),
+	)
+Description: Work in progress
+License: GPL-3
+Encoding: UTF-8
+Depends:
+    R (>= 2.10),
+    Rcpp
+Imports:
+    mets,
+    prodlim,
+    riskRegression
+Suggests:
+    testthat
+LinkingTo: Rcpp, RcppArmadillo
+SystemRequirements: C++11
+NeedsCompilation: yes
+RoxygenNote: 6.1.1
